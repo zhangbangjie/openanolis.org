@@ -2,8 +2,8 @@
 author: "Jin Yuntong"
 date: 2020-08-30T15:00:00+08:00
 title: "OpenAnolis Publish Annoucement on APSARA Conference 2020"	
-tags: ["APSARA", "Cloud"]
-cover: "/apsara-conference.png"
+tags: ["APSARA", "OpenAnolis"]
+cover: "/announcement.png"
 descripton: "OpenAnolis Publish Annoucement on APSARA Conference 2020"
 ---
 
