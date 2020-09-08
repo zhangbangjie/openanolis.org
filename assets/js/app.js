@@ -4,6 +4,7 @@ import asideFunc from './modules/aside'
 import searchFunc from './modules/search'
 import paginationFunc from './modules/pagination'
 import animationFunc from './modules/animation'
+import carousel from './modules/carousel'
 
 import zoom from 'zoom-image'
 import 'zoom-image/css/zoom-image.css'
@@ -31,6 +32,9 @@ const main = () => {
   $$('.typo img').forEach(imgElem => {
     zoom(imgElem)
   })
+
+  //carousel
+  carousel()
 
   // Animition
   animationFunc()
