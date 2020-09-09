@@ -7,8 +7,9 @@ export default function() {
     const lastChild = warp.getElementsByTagName('div')[0].cloneNode(true)
     const len = btn.length
     warp.appendChild(lastChild)
-    var index = 0
+    let index = -1
     function autoPlay() {
+        ++index
         for (let i = 0; i < len; i++) {
             if (i != index) {
                 btn[i].className = 'ss-carousel-btn'
@@ -27,9 +28,8 @@ export default function() {
             btn[index].className = 'ss-carousel-btn-active'
         }
         warp.setAttribute('style', `transform:translateY(-${100 * index / (len + 1)}%);transition-duration: 1s;transition-timing-function: ease-in-out;`)
-        ++index
     }
-    var timer = setInterval(autoPlay(), 4000)
+    var timer = setInterval(autoPlay, 4000)
     carousel.addEventListener("mouseover", function () {
         clearInterval(timer);
     })

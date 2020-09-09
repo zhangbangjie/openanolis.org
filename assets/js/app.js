@@ -13,6 +13,9 @@ import { $$ } from './modules/utils'
 
 const main = () => {
 
+  //carousel
+  carousel()
+
   // search page
   searchFunc()
 
@@ -33,11 +36,8 @@ const main = () => {
     zoom(imgElem)
   })
 
-  //carousel
-  carousel()
-
   // Animition
-  animationFunc()
+  // animationFunc()
 }
 
 document.addEventListener('DOMContentLoaded', main)
