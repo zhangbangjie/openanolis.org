@@ -12,10 +12,7 @@ import 'zoom-image/css/zoom-image.css'
 import { $$ } from './modules/utils'
 
 const main = () => {
-
-  //carousel
-  carousel()
-
+  
   // search page
   searchFunc()
 
